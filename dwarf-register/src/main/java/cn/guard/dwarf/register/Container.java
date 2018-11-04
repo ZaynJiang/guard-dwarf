@@ -12,7 +12,7 @@ public class Container {
     public static void start(String[] args) {
         DwarfConf dwarfConf = getDwarfConfig(args);
         Preconditions.checkNotNull(dwarfConf, "getConfiguration error, dwarfConf is null");
-        Preconditions.checkNotNull(dwarfConf.getGeneralConf(), "commonConf should not be null");
+        Preconditions.checkNotNull(dwarfConf.getGeneralConf(), "generalConf should not be null");
     }
 
     public static DwarfConf getDwarfConfig(String[] args) {
