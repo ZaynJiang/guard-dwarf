@@ -1,4 +1,4 @@
-package cn.guard.dwarf.register.conf;
+package cn.guard.dwarf.common.conf;
 
 import org.apache.commons.collections.CollectionUtils;
 
